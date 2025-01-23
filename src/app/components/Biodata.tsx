@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { idleOnesFont } from "@/types/font";
+import { idleOnesFont, karma } from "@/types/font";
 
 export default function Biodata() {
 
@@ -48,7 +48,7 @@ export default function Biodata() {
         </motion.h3>
         <motion.div className="bg-black/70 rounded-xl" variants={itemVariants}>
           <motion.p
-            className="text-white p-2"
+            className={`${karma.className} text-white p-2`}
             style={{ textIndent: "2rem" }}
             variants={itemVariants}
           >
@@ -66,7 +66,7 @@ export default function Biodata() {
             for both mediums.
           </motion.p>
           <motion.p
-            className="text-white p-2"
+            className={`${karma.className} text-white p-2`}
             style={{ textIndent: "2rem" }}
             variants={itemVariants}
           >
@@ -93,7 +93,7 @@ export default function Biodata() {
         </motion.h3>
         <motion.div className="bg-black/70 rounded-xl" variants={itemVariants}>
           <motion.p
-            className="text-white p-2"
+            className={`${karma.className} text-white p-2`}
             style={{ textIndent: "2rem" }}
             variants={itemVariants}
           >
@@ -106,7 +106,7 @@ export default function Biodata() {
             would define much of his life.
           </motion.p>
           <motion.p
-            className="text-white p-2"
+            className={`${karma.className} text-white p-2`}
             style={{ textIndent: "2rem" }}
             variants={itemVariants}
           >
@@ -120,7 +120,7 @@ export default function Biodata() {
             and the most rewarding sensation underfoot.
           </motion.p>
           <motion.p
-            className="text-white p-2"
+            className={`${karma.className} text-white p-2`}
             style={{ textIndent: "2rem" }}
             variants={itemVariants}
           >

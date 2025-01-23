@@ -9,7 +9,7 @@
   --slide-spacing: 1rem;
   --slide-size: 80%;
   background: rgba(255, 255, 255, 0.5); 
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   border-radius: 1rem; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   padding: 1rem; 
